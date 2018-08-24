@@ -1,12 +1,10 @@
-# Regular Expression matching Sample
-This sample demonstrates how to implement regular expressions to validate entities with fulfillment in Dialogflow. 
+# Regular Expression Matching Sample
+This sample demonstrates how to implement regular expressions to validate entities with fulfillment in Dialogflow.
 ## Setup
 Choose one of the three options listed below for setup.  You only need to complete one of the three options below to setup this sample.
 
 ### Option 1: Add to Dialogflow (recommended)
-Click on the **Add to Dialogflow** button below and follow the prompts to create a new agent:
-
-[![Regular Expression Matching](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "Regular Expression matching")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https%3A%2F%2Fstorage.googleapis.com%2Fdialogflow-oneclick%2FRegex-matching-agent.zip&agentName=Regular-Expression-Sample)
+Create an agent from our template, click [![Regular Expression Matching](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/Regex-sample.zip)
 
 ### Option 2: Dialogflow Inline Editor
 1. [Sign up for or sign into Dialogflow](https://console.dialogflow.com/api-client/#/login) and [create a agent](https://dialogflow.com/docs/agents#create_an_agent)
