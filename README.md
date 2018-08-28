@@ -4,7 +4,7 @@ This sample demonstrates how to implement regular expressions to validate entiti
 Choose one of the three options listed below for setup.  You only need to complete one of the three options below to setup this sample.
 
 ### Option 1: Add to Dialogflow (recommended)
-Create an agent from our template, click [![Regular Expression Matching](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/Regex-sample.zip)
+Create an agent from our template, click [![Regular Expression Matching](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "Regex Sample")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/Regex-sample.zip)
 
 ### Option 2: Dialogflow Inline Editor
 1. [Sign up for or sign into Dialogflow](https://console.dialogflow.com/api-client/#/login) and [create a agent](https://dialogflow.com/docs/agents#create_an_agent)
