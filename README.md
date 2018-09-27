@@ -1,37 +1,42 @@
 # Regular Expression Matching Sample
 This sample demonstrates how to implement regular expressions to validate entities with fulfillment in Dialogflow.
+
 ## Setup
-Choose one of the three options listed below for setup.  You only need to complete one of the three options below to setup this sample.
+Select **only one** of the options below.
 
-### Option 1: Add to Dialogflow (recommended)
-Create an agent from our template, click [![Regular Expression Matching](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "Regex Sample")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/Regex-sample.zip)
+### Option 1: Add to Dialogflow (Recommended)
+To create this agent from our template:
 
-### Option 2: Dialogflow Inline Editor
-1. [Sign up for or sign into Dialogflow](https://console.dialogflow.com/api-client/#/login) and [create a agent](https://dialogflow.com/docs/agents#create_an_agent)
-1. Go to your agent's settings and [Restore from zip](https://dialogflow.com/docs/agents#export_and_import) using the `dialogflow-agent.zip` in this directory (Note: this will overwrite your existing agent)
-1. [Enable the Cloud Function for Firebase inline editor](https://dialogflow.com/docs/fulfillment#cloud_functions_for_firebase)
-1. Copy this code in `functions/index.js` the `index.js` file in the Dialogflow Cloud Function for Firebase inline editor.
-1. Add `"dialogflow-fulfillment": "^0.5.0"` and `"actions-on-google": "^2.1.3"` to the `package.json` file's `dependencies` object in the Dialogflow Cloud Function for Firebase inline editor.
-1. Click `Deploy`
+<a href="https://console.dialogflow.com/api-client/oneclick?templateUrl=https://oneclickgithub.appspot.com/dialogflow/fulfillment-regex-nodejs" target="blank">
+  <img src="https://dialogflow.com/images/deploy.png">
+</a>
 
-### Option 3: Firebase CLI
-1. [Sign up for or sign into Dialogflow](https://console.dialogflow.com/api-client/#/login) and [create a agent](https://dialogflow.com/docs/agents#create_an_agent)
-1. Go to your agent's settings and [Restore from zip](https://dialogflow.com/docs/agents#export_and_import) using the `dialogflow-agent.zip` in this directory (Note: this will overwrite your existing agent)
-1. `cd` to the `functions` directory
-1. Run `npm install`
-1. Install the Firebase CLI by running `npm install -g firebase-tools`
-1. Login to your Google account with `firebase login`
-1. Add your project to the sample with `firebase use [project ID]` [find your project ID here](https://dialogflow.com/docs/agents#settings)
-1. Run `firebase deploy --only functions:dialogflowFirebaseFulfillment`
-1. Paste the URL into your Dialogflow agent's fulfillment and click `Save`
-1. Under the fulfillment section of your `Default Welcome Intent` and `Default Fallback Intent` check the box for `Use webhook` and click `Save`
+### Option 2: Firebase CLI
+1. Create a [Dialogflow Agent](https://console.dialogflow.com/).
+2.  Go to **Settings** ⚙ > **Export and Import** > **Restore from zip** using the `dialogflow-agent.zip` in this directory.
+3. `cd` to the `functions` directory
+4. Run `npm install`.
+5. Install the Firebase CLI by running `npm install -g firebase-tools`
+6. Login with your Google account, `firebase login`
+7.  Add your project to the sample with `firebase use <project ID>`
+  + In Dialogflow console under **Settings** ⚙ > **General** tab > copy **Project ID**.
+8. Run `firebase deploy --only functions:dialogflowFulfillment`
+9. Back in Dialogflow Console > **Fulfullment** > **Enable** Webhook.
+10. Paste the URL from the Firebase Console’s events column into the **URL** field > **Save**.
 
-## References and How to report bugs
-* Dialogflow documentation: [https://docs.dialogflow.com](https://docs.dialogflow.com).
-* If you find any issues, please open a bug on [GitHub](https://github.com/dialogflow/fulfillment-regex-nodejs/issues).
-* Questions are answered on [StackOverflow](https://stackoverflow.com/questions/tagged/dialogflow).
+## Samples
+For all [Dialogflow-Fulfillment](https://github.com/topics/dialogflow-fulfillment) samples on Github, available in Node.js and Python.
 
-## How to make contributions?
+For Fulfillment Webhook [JSON requests & responses](https://github.com/dialogflow/fulfillment-webhook-json).
+
+## References & Issues
++ Questions? Try [StackOverflow](https://stackoverflow.com/questions/tagged/dialogflow) or [Dialogflow Developer Community](https://plus.google.com/communities/103318168784860581977).
++ Find a bug? Report it on [GitHub](https://github.com/dialogflow/fulfillment-webhook-json/issues).
++ Dialogflow [Documentation](https://dialogflow.com/docs/getting-started/basics).
++ For more information on [Initializing Firebase SDK for Cloud Functions](https://firebase.google.com/docs/functions/get-started#set_up_and_initialize_functions_sdk).
++ For more information on [Restore from Zip](https://dialogflow.com/docs/agents#export_and_import).
+
+## Make Contributions
 Please read and follow the steps in the CONTRIBUTING.md.
 
 ## License
